@@ -259,6 +259,9 @@ nav.main a:hover{color:var(--accent-ink);text-decoration:none}
 .masthead h1{font-family:Fraunces,Georgia,serif;font-size:clamp(36px,5.2vw,58px);line-height:1.08;font-weight:700;letter-spacing:-1px;max-width:17ch}
 .masthead p{color:var(--muted);font-size:18.5px;margin-top:13px;max-width:58ch}
 .kicker{font-size:12.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:12px}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:36px;align-items:center}
+.hero-gif img{border-radius:18px;width:100%;aspect-ratio:3/2;object-fit:cover;border:1px solid var(--line)}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-gif{max-width:460px}}
 .chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
 .chips a{display:inline-flex;align-items:center;min-height:42px;padding:8px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:14.5px;font-weight:500}
 .chips a:hover{border-color:var(--accent);text-decoration:none}
@@ -539,7 +542,7 @@ def build():
         shutil.rmtree(DIST)
     os.makedirs(os.path.join(DIST, "img"))
     for f in os.listdir(IMG_SRC):
-        if f.endswith(".jpg"):
+        if f.endswith((".jpg", ".gif")):
             shutil.copy(os.path.join(IMG_SRC, f), os.path.join(DIST, "img", f))
     with open(os.path.join(DIST, "styles.css"), "w") as f:
         f.write(CSS.strip())
@@ -587,13 +590,16 @@ def build():
     trend = "".join(f'<a href="/blog/{p["slug"]}/">{html.escape(p["title"])}</a>' for p in trend_posts)
     home = head(f"{SITE_NAME} — {TAGLINE}", "IndieLab tracks what shoppers search for on Pinterest and Amazon, then writes the short, honest guide for each find — who it suits, how to gift it, and where to get it.", "/") + f"""
 <div class="wrap">
-<div class="masthead">
+<div class="masthead hero-grid">
+<div>
 <p class="kicker">Gift guides · Cozy home · Kitchen finds</p>
 <h1>Gifts people actually use, found without the doom-scroll.</h1>
 <p>IndieLab tracks what shoppers search for on Pinterest and Amazon, then writes the short, honest guide for each find — who it suits, how to gift it, and where to get it.</p>
 <div class="chips">
 <a href="/category/gifts-for-mom/">For Mom</a><a href="/category/gifts-for-her/">For Her</a><a href="/category/gifts-for-him/">For Him</a><a href="/category/stocking-stuffers/">Under the tree: stocking stuffers</a><a href="/products/">Top picks</a>
 </div>
+</div>
+<div class="hero-gif"><img src="/img/cozy.gif" alt="A cat asleep under a cozy plaid blanket while fairy lights twinkle" width="500" height="334"></div>
 </div>
 <div class="feature">
 <img src="/img/{feat['hero']}.jpg" alt="{html.escape(feat['title'])}" width="980" height="833">

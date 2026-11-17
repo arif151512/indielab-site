@@ -17,6 +17,9 @@ nav.main a:hover{color:var(--accent-ink);text-decoration:none}
 .masthead h1{font-family:Fraunces,Georgia,serif;font-size:clamp(36px,5.2vw,58px);line-height:1.08;font-weight:700;letter-spacing:-1px;max-width:17ch}
 .masthead p{color:var(--muted);font-size:18.5px;margin-top:13px;max-width:58ch}
 .kicker{font-size:12.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--accent-ink);margin-bottom:12px}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:36px;align-items:center}
+.hero-gif img{border-radius:18px;width:100%;aspect-ratio:3/2;object-fit:cover;border:1px solid var(--line)}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-gif{max-width:460px}}
 .chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
 .chips a{display:inline-flex;align-items:center;min-height:42px;padding:8px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:14.5px;font-weight:500}
 .chips a:hover{border-color:var(--accent);text-decoration:none}
