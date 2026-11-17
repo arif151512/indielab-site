@@ -258,7 +258,8 @@ a:hover{text-decoration:underline}
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
 header.site{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:10}
 .bar{display:flex;align-items:center;justify-content:space-between;padding:13px 0;gap:16px}
-.wordmark{font-family:Fraunces,Georgia,serif;font-size:29px;font-weight:700;color:var(--ink);letter-spacing:-.5px}
+.wordmark{font-family:Fraunces,Georgia,serif;font-size:29px;font-weight:700;color:var(--ink);letter-spacing:-.5px;display:inline-flex;align-items:center;gap:10px}
+.wordmark .logo{width:32px;height:32px;border-radius:9px;flex:none}
 .wordmark span{color:var(--accent)}
 nav.main{display:flex;gap:20px;flex-wrap:wrap}
 nav.main a{color:var(--ink);font-size:15px;font-weight:500;padding:6px 0}
@@ -381,6 +382,11 @@ def head(title, desc, path, extra="", ogimg=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#FAF6F0">
 <link rel="canonical" href="{SITE}{path}">
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
@@ -396,7 +402,7 @@ def head(title, desc, path, extra="", ogimg=None):
 </head>
 <body>
 <header class="site"><div class="wrap bar">
-<a class="wordmark" href="/">Indie<span>Lab</span></a>
+<a class="wordmark" href="/"><img class="logo" src="/favicon-192.png" alt="IndieLab logo" width="32" height="32">Indie<span>Lab</span></a>
 <nav class="main" aria-label="Categories">
 <a href="/category/gifts-for-mom/">For Mom</a>
 <a href="/category/gifts-for-her/">For Her</a>
@@ -556,6 +562,10 @@ def build():
         f.write(CSS.strip())
     with open(os.path.join(DIST, "vercel.json"), "w") as f:
         json.dump({"cleanUrls": True}, f)
+    for fav in ("favicon.ico", "favicon-32.png", "favicon-192.png", "favicon-512.png", "apple-touch-icon.png"):
+        src_f = os.path.join(ROOT, fav)
+        if os.path.exists(src_f):
+            shutil.copy(src_f, os.path.join(DIST, fav))
 
     urls = ["/"]
     # ---- posts
