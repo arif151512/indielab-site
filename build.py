@@ -219,6 +219,14 @@ def image_pool(prod_key):
     return pool or [f"{prod_key}-1"]
 
 POSTS = [dict(title=t, product=p, cat=c, angle=a, slug=slugify(t)) for (t, p, c, a) in POSTS]
+# Daily posts appended by the Pinterest workflow: posts_extra.json = [{title, product, cat, angle}]
+_extra_path = os.path.join(ROOT, "posts_extra.json")
+if os.path.exists(_extra_path):
+    with open(_extra_path) as _f:
+        for _e in json.load(_f):
+            if slugify(_e["title"]) not in {p["slug"] for p in POSTS}:
+                POSTS.append(dict(title=_e["title"], product=_e["product"], cat=_e["cat"],
+                                  angle=_e["angle"], slug=slugify(_e["title"])))
 _by_product = {}
 for _p in POSTS:
     _by_product.setdefault(_p["product"], []).append(_p)
