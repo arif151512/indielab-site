@@ -10,7 +10,7 @@ DIST = os.path.join(ROOT, "dist")
 SITE = "https://indielab.online"
 SITE_NAME = "IndieLab"
 TAGLINE = "Gift ideas and home finds worth your money"
-GA_ID = "G-XXXXXXXXXX"  # <-- replace with the real GA4 measurement ID, then rebuild
+GA_ID = "G-RKPVDND4EG"  # <-- replace with the real GA4 measurement ID, then rebuild
 DATE = "2026-11-18"
 
 PRODUCTS = {
