@@ -298,5 +298,305 @@
     "product": "lamp",
     "cat": "gifts-for-mom",
     "angle": "gift"
+  },
+  {
+    "title": "Best Heated Blanket for Book Lovers",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Cabin Christmas: Cozy Gift Ideas",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "roundup"
+  },
+  {
+    "title": "Work From Home Winter Essentials",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Christmas Gifts for Grandma Who Is Always Cold",
+    "product": "blanket",
+    "cat": "gifts-for-mom",
+    "angle": "gift"
+  },
+  {
+    "title": "Heated Throw for Cold Winter Mornings",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Gifts for Coworkers Who Work From Home",
+    "product": "blanket",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "Cozy Reading Nook Gift Ideas",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "roundup"
+  },
+  {
+    "title": "Rustic Cabin Decor Ideas for Winter",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "How to Stay Cozy at Your Desk All Day",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "howto"
+  },
+  {
+    "title": "Thoughtful Gifts for Women Who Love to Read",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Morning Skincare Routine for Glowing Skin",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "guide"
+  },
+  {
+    "title": "Christmas Gifts for Her Under $25",
+    "product": "mask",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "Girls Night In: Self Care Edition",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "What Is a Hydrogel Face Mask",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "howto"
+  },
+  {
+    "title": "Stocking Stuffer Ideas for Makeup Lovers",
+    "product": "mask",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "Self Care Night Ideas With Friends",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Korean Skincare Gifts Everyone Wants",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "roundup"
+  },
+  {
+    "title": "Luxury Skincare Gifts That Look Expensive",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Christmas Eve Pamper Night Ideas",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Beauty Stocking Stuffers for Sisters",
+    "product": "mask",
+    "cat": "stocking-stuffers",
+    "angle": "gift"
+  },
+  {
+    "title": "Cast Iron Steak Temperature Guide",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "How to Carve a Christmas Ham",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Smoked Brisket Tips for Beginners",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "guide"
+  },
+  {
+    "title": "Gifts for Men Who Love Steak",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "gift"
+  },
+  {
+    "title": "Holiday Ham Cooking Temperatures",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "BBQ Stocking Stuffers for Pitmasters",
+    "product": "thermo",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "The One Gadget Every Steak Lover Needs",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "guide"
+  },
+  {
+    "title": "Christmas Dinner Host Gift Ideas",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "gift"
+  },
+  {
+    "title": "Useful Gifts for Backyard Grillers",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "roundup"
+  },
+  {
+    "title": "How to Get a Perfect Steak Crust",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Christmas Tree Lights Ideas That Sparkle",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Christmas Staircase Decor With Garland",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Outdoor Fairy Light Ideas for Patios",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "How to Put Lights on a Christmas Tree",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "howto"
+  },
+  {
+    "title": "Banister Garland Ideas for Christmas",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Cozy Patio Ideas for Winter Evenings",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Stocking Stuffers That Make Rooms Glow",
+    "product": "fairy",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "Small Entryway Christmas Decor Ideas",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Garden Party Lights for Magical Evenings",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Twinkle Lights for a Magical Christmas",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "roundup"
+  },
+  {
+    "title": "Candle Warmer Lamp for Book Lovers",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "gift"
+  },
+  {
+    "title": "Spa Bathroom Ideas With Candlelight",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Desk Gifts for Candle Lovers",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Cozy Reading Corner Ideas for Winter",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Bathroom Self Care Gift Ideas for Her",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Candle Warmer Lamp With Timer: Why It Matters",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "No-Flame Candle Ideas for Bedrooms",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Relaxing Bath Night Essentials",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Home Office Gifts That Feel Cozy",
+    "product": "lamp",
+    "cat": "gifts-for-mom",
+    "angle": "gift"
+  },
+  {
+    "title": "Christmas Gifts for Moms Who Love Candles",
+    "product": "lamp",
+    "cat": "gifts-for-mom",
+    "angle": "gift"
   }
 ]
