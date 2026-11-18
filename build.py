@@ -398,6 +398,8 @@ def head(title, desc, path, extra="", ogimg=None):
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 {ga}
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"Organization","name":"IndieLab","url":"{SITE}/","logo":"{SITE}/favicon-512.png"}}</script>
+<script type="application/ld+json">{{"@context":"https://schema.org","@type":"WebSite","name":"IndieLab","url":"{SITE}/"}}</script>
 {extra}
 </head>
 <body>
