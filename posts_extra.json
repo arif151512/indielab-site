@@ -598,5 +598,305 @@
     "product": "lamp",
     "cat": "gifts-for-mom",
     "angle": "gift"
+  },
+  {
+    "title": "Best Heated Blanket for College Dorms",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Cozy Gifts for Grandma This Christmas",
+    "product": "blanket",
+    "cat": "gifts-for-mom",
+    "angle": "gift"
+  },
+  {
+    "title": "Electric Throw Blanket for Reading in Bed",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Warm Winter Gifts for Newlyweds",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Heated Blanket for Cold Offices",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Christmas Gifts for Aunts Who Love Cozy",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "How to Wash an Electric Heated Blanket",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "howto"
+  },
+  {
+    "title": "Cozy Night In: Blanket and Hot Cocoa Ideas",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "roundup"
+  },
+  {
+    "title": "Heated Throw Blanket for RV Trips and Camping",
+    "product": "blanket",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Gifts for Nurses Who Work Night Shifts",
+    "product": "blanket",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Overnight Glow Mask for Christmas Morning",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Best Skincare Gifts for College Students",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Self Care Gifts for Teachers This Christmas",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "How to Get Glass Skin Before a Holiday Party",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "howto"
+  },
+  {
+    "title": "Stocking Stuffers for Skincare Addicts",
+    "product": "mask",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "Christmas Gifts for Best Friends Who Love Skincare",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Collagen Mask for Dry Winter Skin",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Pamper Gift Ideas for New Moms",
+    "product": "mask",
+    "cat": "gifts-for-mom",
+    "angle": "care"
+  },
+  {
+    "title": "Beauty Gifts for Coworkers Under $25",
+    "product": "mask",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "What to Put in a Self Care Gift Basket",
+    "product": "mask",
+    "cat": "gifts-for-her",
+    "angle": "care"
+  },
+  {
+    "title": "Best Thermometer for Smoking Brisket",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "guide"
+  },
+  {
+    "title": "Christmas Gifts for Dads Who Love BBQ",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "gift"
+  },
+  {
+    "title": "How to Roast a Turkey Without Drying It Out",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Steak Doneness Chart: Rare to Well Done",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Gifts for New Homeowners Who Love to Cook",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "gift"
+  },
+  {
+    "title": "Digital Thermometer for Baking Bread",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Best Kitchen Gadget Gifts Under $25",
+    "product": "thermo",
+    "cat": "stocking-stuffers",
+    "angle": "roundup"
+  },
+  {
+    "title": "How to Check Chicken Is Cooked Safely",
+    "product": "thermo",
+    "cat": "kitchen-gadgets",
+    "angle": "howto"
+  },
+  {
+    "title": "Grilling Gifts for the Holidays",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "gift"
+  },
+  {
+    "title": "Smoker Accessories Every Pitmaster Needs",
+    "product": "thermo",
+    "cat": "gifts-for-him",
+    "angle": "roundup"
+  },
+  {
+    "title": "Fairy Lights for Christmas Tree Toppers",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Cozy Bedroom Fairy Light Ideas",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "How to Hang Fairy Lights Without Nails",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "howto"
+  },
+  {
+    "title": "Fairy Light Ideas for a Winter Baby Shower",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Christmas Porch Decor With Twinkle Lights",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Fairy Lights for Bookshelves and Reading Nooks",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Dorm Room Christmas Decor Ideas",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Outdoor Christmas Lights for Small Balconies",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Fairy Lights for Holiday Table Settings",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Twinkle Light Ideas for New Year's Eve",
+    "product": "fairy",
+    "cat": "cozy-home",
+    "angle": "roundup"
+  },
+  {
+    "title": "Candle Warmer Lamp for Dorm Rooms",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "gift"
+  },
+  {
+    "title": "Best Candle Gifts for Fall Lovers",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "How to Make Your Home Smell Like Christmas",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Candle Warmer Lamp for Small Apartments",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "gift"
+  },
+  {
+    "title": "Relaxing Gifts for Stressed Moms",
+    "product": "lamp",
+    "cat": "gifts-for-mom",
+    "angle": "care"
+  },
+  {
+    "title": "Christmas Gifts for Teachers Who Love Candles",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Flameless Candle Decor for the Holidays",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "decor"
+  },
+  {
+    "title": "Candle Warmer Lamp vs Burning Candles: Which Is Better",
+    "product": "lamp",
+    "cat": "cozy-home",
+    "angle": "guide"
+  },
+  {
+    "title": "Cozy Gifts for Cat Owners",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "gift"
+  },
+  {
+    "title": "Housewarming Gifts for Candle Lovers",
+    "product": "lamp",
+    "cat": "gifts-for-her",
+    "angle": "gift"
   }
 ]
