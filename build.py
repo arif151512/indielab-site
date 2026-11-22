@@ -474,6 +474,55 @@ SECTION_TITLES = {
     "gift": "How do you gift it well?",
 }
 
+# Hand-written extra sections for specific posts (keyed by slug), inserted after
+# the standard sections. Added 2026-11-23 for the viral-playbook content posts.
+CUSTOM_SECTIONS = {
+    "meat-temperature-chart-safe-temps-for-beef-chicken-pork-and-more": """
+<h2>The meat temperature chart</h2>
+<p>Every temperature below is the internal temperature at the thickest part of the meat, measured with an instant-read probe away from bone. Rest meat after cooking — the temperature coasts up another 3–5°F (2–3°C) while it rests, and the juices settle back in.</p>
+<style>
+table.temps{border-collapse:collapse;width:100%;margin:14px 0;font-size:15px}
+table.temps th,table.temps td{border:1px solid #d8d2c4;padding:8px 10px;text-align:left}
+table.temps th{background:#20241F;color:#FAF6F0}
+table.temps tr:nth-child(even) td{background:#f3eee3}
+</style>
+<table class="temps">
+<tr><th>Meat</th><th>Target temperature</th><th>Notes</th></tr>
+<tr><td>Chicken &amp; turkey — pieces, whole, ground</td><td><strong>165°F / 74°C</strong></td><td>The one non-negotiable. Probe the thickest part of the thigh.</td></tr>
+<tr><td>Ground beef &amp; ground pork</td><td><strong>160°F / 71°C</strong></td><td>Burgers and meatballs — no pink centre.</td></tr>
+<tr><td>Beef &amp; lamb steaks and roasts</td><td><strong>145°F / 63°C</strong> minimum</td><td>USDA safe minimum, plus a 3-minute rest. Doneness guide below.</td></tr>
+<tr><td>Pork chops &amp; roasts</td><td><strong>145°F / 63°C</strong></td><td>Plus a 3-minute rest. A blush of pink at 145°F is safe.</td></tr>
+<tr><td>Fish &amp; shellfish</td><td><strong>145°F / 63°C</strong></td><td>Or until the flesh is opaque and flakes easily.</td></tr>
+<tr><td>Fresh ham</td><td><strong>145°F / 63°C</strong></td><td>Plus a 3-minute rest. Pre-cooked ham: reheat to 140°F / 60°C.</td></tr>
+<tr><td>Leftovers &amp; reheating</td><td><strong>165°F / 74°C</strong></td><td>All the way through, every time.</td></tr>
+</table>
+<h2>Steak doneness, by temperature</h2>
+<table class="temps">
+<tr><th>Doneness</th><th>Pull at</th><th>What it looks like</th></tr>
+<tr><td>Rare</td><td>120–125°F / 49–52°C</td><td>Cool red centre</td></tr>
+<tr><td>Medium rare</td><td>130–135°F / 54–57°C</td><td>Warm red centre — the steakhouse standard</td></tr>
+<tr><td>Medium</td><td>140–145°F / 60–63°C</td><td>Warm pink centre</td></tr>
+<tr><td>Medium well</td><td>150–155°F / 66–68°C</td><td>Slightly pink centre</td></tr>
+<tr><td>Well done</td><td>160°F / 71°C and up</td><td>Little to no pink</td></tr>
+</table>
+<p>Pull steaks and roasts 3–5 degrees <em>before</em> the target and rest them — carryover heat finishes the job. Colour and clear juices both mislead; the probe does not.</p>
+""",
+    "collagen-mask-routine-for-glowing-skin": """
+<h2>The routine, step by step</h2>
+<p>A collagen hydrogel mask works best as the <strong>last step</strong> of a gentle evening routine — it seals everything in and feeds the skin for hours. Here is the order that gets the most from it:</p>
+<ol>
+<li><strong>Cleanse.</strong> A gentle cleanser and lukewarm water. Pat dry — do not rub.</li>
+<li><strong>Tone or essence.</strong> A hydrating toner or essence, patted in while the skin is still slightly damp.</li>
+<li><strong>Serum (optional).</strong> A simple hydrating serum pairs well. On mask nights, keep the rest of the routine gentle — skip strong exfoliating acids if your skin is at all sensitive.</li>
+<li><strong>The mask.</strong> Apply the hydrogel mask, smooth out the edges, and settle in. As the essence absorbs over the next hours, the mask gradually turns transparent — that is the sign it has done its work.</li>
+<li><strong>Wear it 3–4 hours, or overnight.</strong> The evening session suits side-sleepers; overnight suits back-sleepers.</li>
+<li><strong>Remove and pat in.</strong> Peel it off and pat the remaining essence into the skin. No rinsing — that glow is the point.</li>
+</ol>
+<h2>How often, and when it matters most</h2>
+<p>Two to three times a week is the rhythm most people settle into. The highest-value night of all is the <strong>night before</strong> something — a party, photos, a wedding, a big day at work — because the glow is at its best the next morning. Patch-test on the jawline before the first full use, as with any new skincare, and remember the honest limit: this is a temporary hydration and glow boost, not a permanent change. Used before the days that matter, it earns its place.</p>
+""",
+}
+
 def section_html(kind, prod):
     title = SECTION_TITLES[kind].format(short=prod["short"].lower())
     if kind == "who":
@@ -501,6 +550,9 @@ def post_body(post):
     faqs = [pool[(start + i) % len(pool)] for i in range(min(4, len(pool)))]
     faq_html = "".join(f'<div class="faq"><h3>{q}</h3><p>{a}</p></div>' for q, a in faqs)
     secs = "\n".join(section_html(k, prod) for k in ANGLE_SECTIONS[post["angle"]])
+    custom = CUSTOM_SECTIONS.get(post["slug"], "")
+    if custom:
+        secs = secs + "\n" + custom
     rel = related(post)
     rel_html = "".join(f"""<div class="card"><a href="/blog/{r['slug']}/">
 <img src="/img/{r['hero']}.jpg" alt="{html.escape(r['title'])}" loading="lazy" width="640" height="512">
